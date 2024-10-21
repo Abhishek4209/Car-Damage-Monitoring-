@@ -59,7 +59,7 @@ To get started, clone this repository and install the required dependencies.
 
 The dataset used in this project consists of images of damaged cars. You can use an open-source dataset like:
 
-- **[Car Damage Detection Dataset](https://www.kaggle.com/andrewmvd/car-damage-detection)** available on Kaggle.
+- **[Car Damage Detection Dataset](https://www.kaggle.com/datasets/lplenka/coco-car-damage-detection-dataset)** available on Kaggle.
   
 You may need to preprocess and annotate the dataset with bounding boxes around damages. You can use [LabelImg](https://github.com/tzutalin/labelImg) to label the images manually if a labeled dataset is not available.
 
