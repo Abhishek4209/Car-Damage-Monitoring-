@@ -1,7 +1,7 @@
 ---
 
 # Car Damage Detection using YOLO V1
-image.png
+D:\Car Damage Detection\1_C9H_3I3v4voI0UzvQNuD0w.webp
 
 This project implements a deep learning model for detecting car damage using the YOLO (You Only Look Once) version 1 algorithm. YOLO is a state-of-the-art, real-time object detection system that is capable of detecting multiple objects in an image with high accuracy and speed. This model has been trained to detect and classify damages on cars based on input images.
 
