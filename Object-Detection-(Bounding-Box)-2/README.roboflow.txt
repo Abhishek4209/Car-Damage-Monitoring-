@@ -1,8 +1,8 @@
 
-Object Detection (Bounding Box) - v1 2024-10-21 3:13pm
+Object Detection (Bounding Box) - v2 2024-10-21 5:05pm
 ==============================
 
-This dataset was exported via roboflow.com on October 21, 2024 at 3:14 PM GMT
+This dataset was exported via roboflow.com on October 21, 2024 at 5:14 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -25,5 +25,3 @@ The following pre-processing was applied to each image:
 * Resize to 640x640 (Stretch)
 
 No image augmentation techniques were applied.
-
-
