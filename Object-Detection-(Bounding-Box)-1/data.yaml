@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Damage']
+
+roboflow:
+  workspace: abhishek-upadhyay
+  project: object-detection-bounding-box-ket2p
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhishek-upadhyay/object-detection-bounding-box-ket2p/dataset/1
