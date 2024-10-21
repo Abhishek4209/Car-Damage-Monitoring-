@@ -1,6 +1,6 @@
 ---
 
-# Car Damage Detection using YOLO V1
+# Car Damage Detection using YOLO V11
 ![image](1_C9H_3I3v4voI0UzvQNuD0w.png)
 
 
@@ -21,12 +21,12 @@ This project implements a deep learning model for detecting car damage using the
 
 ## Project Overview
 
-The goal of this project is to identify and localize different types of damage on car bodies using YOLO V1. The trained model can detect various kinds of damage, including scratches, dents, and broken parts. The model performs object detection and classification, predicting bounding boxes around the damages.
+The goal of this project is to identify and localize different types of damage on car bodies using YOLO V11. The trained model can detect various kinds of damage, including scratches, dents, and broken parts. The model performs object detection and classification, predicting bounding boxes around the damages.
 
 ### Features
 
 - Detects car damage from images using a deep neural network.
-- Real-time damage localization with YOLO V1.
+- Real-time damage localization with YOLO V11.
 - Provides bounding boxes and classification of damage.
   
 ## Installation
@@ -36,7 +36,7 @@ To get started, clone this repository and install the required dependencies.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/car-damage-detection.git
+   git clone https://github.com/Abhishek4209/Car-Damage-Monitoring-?tab=readme-ov-file#project-overview
    cd car-damage-detection
    ```
 
@@ -53,7 +53,7 @@ To get started, clone this repository and install the required dependencies.
    - NumPy
    - Matplotlib
 
-3. Download the pre-trained YOLO V1 weights from the official [YOLO V1 GitHub repository](https://github.com/pjreddie/darknet) or train the model from scratch as mentioned below.
+3. Download the pre-trained YOLO V11 weights from the official [YOLO V11 GitHub repository](https://github.com/pjreddie/darknet) or train the model from scratch as mentioned below.
 
 ## Dataset
 
@@ -83,7 +83,7 @@ You may need to preprocess and annotate the dataset with bounding boxes around d
 
 ## Model Architecture
 
-This project uses the YOLO V1 (You Only Look Once) architecture, which divides the input image into a grid and predicts bounding boxes and class probabilities for each grid cell.
+This project uses the YOLO V11 (You Only Look Once) architecture, which divides the input image into a grid and predicts bounding boxes and class probabilities for each grid cell.
 
 - **Input Image**: The input image is divided into an SxS grid.
 - **Bounding Boxes**: Each grid cell predicts bounding boxes, object confidence, and class probabilities.
@@ -91,14 +91,14 @@ This project uses the YOLO V1 (You Only Look Once) architecture, which divides t
 
 ## Training
 
-To train the YOLO V1 model on the car damage dataset:
+To train the YOLO V11 model on the car damage dataset:
 
 1. Download or prepare the dataset (as explained above).
-2. Modify the training parameters in the configuration file (`yolo_v1_config.py`).
+2. Modify the training parameters in the configuration file (`yolo_v11_config.py`).
 3. Run the training script:
 
    ```bash
-   python train.py --config yolo_v1_config.py
+   python train.py --config yolo_v11_config.py
    ```
 
 ### Training Hyperparameters
@@ -122,7 +122,7 @@ The script will load the image and model, and output the predictions (bounding b
 
 ## Results
 
-The YOLO V1 model shows good performance on car damage detection with an mAP (mean Average Precision) of 75% on the test dataset.
+The YOLO V11 model shows good performance on car damage detection with an mAP (mean Average Precision) of 75% on the test dataset.
 
 ### Example Output
 
